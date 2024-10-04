@@ -222,7 +222,7 @@ console.log()
           <group position={[0, -760.118, 1058.917]} scale={10}>
             <group position={[0, -0.027, 0.043]}>
             <mesh geometry={nodes.Body.geometry}>
-        <meshStandardMaterial {...materials.BaseMtl} color={overlay==1 || overlay==13 ? (snap1.base.BaseMtl!=="none" ? snap1.base.BaseMtl : 0xffffff) : 0xffffff}>
+        <meshStandardMaterial {...materials.BaseMtl} color={overlay==1 || overlay==13 || overlay==34 ? (snap1.base.BaseMtl!=="none" ? snap1.base.BaseMtl : 0xffffff) : 0xffffff}>
           <canvasTexture
             flipY={false}
             wrapS={1000}
